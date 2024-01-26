@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StatistikaActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Mesečna potrošnja (RSD)"
+        android:gravity="center"
+        android:background="#0A77D6"
+        android:textColor="@color/white"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textJanuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="  Januar"
+        android:textStyle="bold"
+        android:background="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/iznosJanuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:gravity="end"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/textFebruar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="  Februar"
+        android:textStyle="bold"
+        android:background="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/iznosFebruar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:gravity="end"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/textMart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="  Mart"
+        android:textStyle="bold"
+        android:background="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/iznosMart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:gravity="end"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/textApril"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="  April"
+        android:textStyle="bold"
+        android:background="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/iznosApril"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:gravity="end"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/textMaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="  Maj"
+        android:textStyle="bold"
+        android:background="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/iznosMaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:gravity="end"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/textJun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="  Jun"
+        android:textStyle="bold"
+        android:background="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/iznosJun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:gravity="end"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/textJul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="  Jul"
+        android:textStyle="bold"
+        android:background="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/iznosJul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:gravity="end"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/textAvgust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="  Avgust"
+        android:textStyle="bold"
+        android:background="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/iznosAvgust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:gravity="end"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/textSeptembar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="  Septembar"
+        android:textStyle="bold"
+        android:background="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/iznosSeptembar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:gravity="end"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/textOktobar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="  Oktobar"
+        android:textStyle="bold"
+        android:background="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/iznosOktobar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:gravity="end"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/textNovembar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="  Novembar"
+        android:textStyle="bold"
+        android:background="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/iznosNovembar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:gravity="end"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/textDecembar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="  Decembar"
+        android:textStyle="bold"
+        android:background="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <TextView
+        android:id="@+id/iznosDecembar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:gravity="end"
+        android:textColor="#062953"
+        />
+
+</LinearLayout>

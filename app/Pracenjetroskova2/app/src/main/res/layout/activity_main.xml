@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Listing troškova"
+        android:gravity="center"
+        android:background="#0A77D6"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/button_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="+"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:id="@+id/text_ukupno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:layout_weight="2"
+            android:textColor="#062953"
+            />
+
+        <Button
+            android:id="@+id/button_obrisiSve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+
+            android:textSize="15dp"
+            android:text="Obriši listu"
+
+            android:layout_weight="1"
+            android:backgroundTint="#E11010"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_stat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Statistika po mesecima"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+    <ListView
+        android:id="@+id/lista_prikaz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textColor="#062953"
+        />
+
+</LinearLayout>

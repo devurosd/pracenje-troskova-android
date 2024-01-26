@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DodajTrosakActivity">
+
+    <EditText
+        android:id="@+id/edit_text_naziv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Unesite naziv"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#062953"
+        />
+    <EditText
+        android:id="@+id/edit_text_iznos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Unesite iznos"
+        android:layout_marginBottom="15dp"
+        android:inputType="numberDecimal"
+        android:textColor="#062953"
+        />
+
+    <DatePicker
+        android:id="@+id/datum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="calendar"
+        android:background="#C3EBFD"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button_dodaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Dodaj"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C3EBFD"
+        android:textColor="#062953"
+        />
+
+</LinearLayout>
